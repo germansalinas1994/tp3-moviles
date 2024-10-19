@@ -15,12 +15,7 @@ export default function Header() {
           {/* <Ionicons name="menu" size={30} color={Colors.secondary.dark} /> */}
         </TouchableOpacity>
         
-        {/* Logo */}
-        <Image
-          source={require('@/assets/images/logo.jpg')}
-          style={styles.logo}
-          resizeMode="contain"
-        />
+
       </View>
     </SafeAreaView>
   );

@@ -21,7 +21,7 @@ export default function Find() {
       }}
     >
       {/* Contenedor de la imagen */}
-      <Link href="/pet-details" asChild>
+      {/* <Link href="/pet-details" asChild>
         <Pressable
           style={{
             width: width * 1,
@@ -45,10 +45,10 @@ export default function Find() {
             }}
           />
         </Pressable>
-      </Link>
+      </Link> */}
 
       {/* Contenedor de botones */}
-      <View
+      {/* <View
         style={{
           flexDirection: "row",
           justifyContent: "space-between",
@@ -81,7 +81,7 @@ export default function Find() {
         >
           <Icon name="check" size={30} color={Colors.text.white} />
         </Pressable>
-      </View>
+      </View> */}
     </View>
   );
 }

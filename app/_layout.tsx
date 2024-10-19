@@ -1,12 +1,14 @@
 import { Stack } from "expo-router";
 import { useFonts } from "expo-font";
-import { SafeAreaProvider } from "react-native-safe-area-context";
-import { View, ActivityIndicator, Text } from "react-native";
-import Colors from "../constants/Colors";
 import LoadingIndicator from "../components/Loading"; // Ajusta la ruta según tu estructura de carpetas
+// import {
+//   getAuth,
+//   createUserWithEmailAndPassword,
+//   signInWithEmailAndPassword,
+// } from "firebase/auth";
+// import { config } from "../config/FirebaseConfig";
 
 export default function RootLayout() {
-  // Cargar las fuentes
   const [fontsLoaded] = useFonts({
     outfit: require("../assets/fonts/Outfit-Regular.ttf"),
     "outfit-Bold": require("../assets/fonts/Outfit-Bold.ttf"),
